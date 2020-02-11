@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.charts-container{
+  display: grid;
+  grid-template-columns: 1vw 48vw 2vw 48vw 1vw;
+  grid-template-rows: 5vh 45vh 3vh 45vh 2vh;
+}
+
+.gross-chart {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  
+}
+
+.net-chart {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cash-chart {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.denials-chart {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.navbar {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: rgb(29, 0, 57);
+  /* text-align: center; */
+  /* text-decoration: none; */
+  font-size: 17px;
+  color: white;
+}
+
+.navbar-text {
+  /* text-align: center;
+  vertical-align: middle; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  color: white;
+  padding: 3rem;
+  font-weight: bold;
+}
+
+.login {
+  /* text-align: center;
+  vertical-align: middle; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  color: white;
+  padding: 5rem;
+  font-weight: bold;
+}
+
+.other-text {
+  /* text-align: center;
+  vertical-align: middle; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  color: white;
+  padding: 4rem;
+  font-weight: bold;
+}
+
+.banner-text {
+  /* text-align: center;
+  vertical-align: middle; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: center;
+  color: white;
+  padding: 10rem;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+canvas {
+  width: 47vw !important;
+  height: 41vh !important;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background-color: rgb(29, 0, 57);
+}
+
+.sidebar-text {
+  color: white;
+}
